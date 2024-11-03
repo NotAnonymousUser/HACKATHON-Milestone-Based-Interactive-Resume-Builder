@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Mubeen Javaid - Interactive Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-content">
+          <img
+            src="./display-pic.jpg"
+            alt="Profile Picture"
+            class="profile-pic"
+          />
+          <div class="header-text">
+            <h1>Muhammad Mubeen Javaid</h1>
+            <p class="title">Software Developer</p>
+          </div>
+        </div>
+        <nav class="controls">
+          <button id="togglePersonal" class="control-btn">
+            Toggle Personal Info
+          </button>
+          <button id="toggleSkills" class="control-btn">Toggle Skills</button>
+          <button id="toggleEducation" class="control-btn">
+            Toggle Education
+          </button>
+          <button id="toggleCertifications" class="control-btn">
+            Toggle Certifications
+          </button>
+          <button id="toggleExperience" class="control-btn">
+            Toggle Experience
+          </button>
+        </nav>
+      </header>
+
+      <main class="content">
+        <div class="left-column">
+          <section id="personal-section" class="section">
+            <h2>Personal Information</h2>
+            <div class="section-content">
+              <div class="contact-info">
+                <p><i class="icon">📧</i> mubeen.javed2000@gmail.com</p>
+                <p><i class="icon">📱</i> +92 317 1048653</p>
+                <p>
+                  <a
+                    href="https://github.com/NotAnonymousUser"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                  >
+                    <i class="icon">👨‍💻</i> GitHub
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://www.linkedin.com/in/mubeen-javaid/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                  >
+                    <i class="icon">💼</i> LinkedIn
+                  </a>
+                </p>
+              </div>
+              <div class="personal-statement">
+                <h3>Personal Statement</h3>
+                <p>
+                  A motivated and quick-learning software developer with
+                  expertise in MERN stack development and SAP Business One
+                  implementation. Passionate about creating efficient solutions
+                  and delivering high-quality software products.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section id="skills-section" class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+              <div class="skill-category">
+                <h3>Frontend</h3>
+                <ul>
+                  <li>JavaScript/TypeScript</li>
+                  <li>React</li>
+                  <li>Next.js</li>
+                  <li>HTML & CSS</li>
+                </ul>
+              </div>
+              <div class="skill-category">
+                <h3>Backend</h3>
+                <ul>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>SQL</li>
+                  <li>REST APIs</li>
+                </ul>
+              </div>
+              <div class="skill-category">
+                <h3>Enterprise</h3>
+                <ul>
+                  <li>SAP Business One</li>
+                  <li>Crystal Reports</li>
+                  <li>ERP Systems</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section id="education-section" class="section">
+            <h2>Education</h2>
+            <div class="education-item">
+              <h3>Bachelor's in Industrial Engineering & Management</h3>
+              <p>Dawood University of Engineering and Technology</p>
+              <p class="date">2019 - 2023</p>
+            </div>
+            <div class="education-item">
+              <h3>Pre-Engineering</h3>
+              <p>Government Degree Science & Commerce College</p>
+              <p class="date">2017 - 2019</p>
+            </div>
+            <div class="education-item">
+              <h3>Matriculation</h3>
+              <p>Fauji Foundation Model School</p>
+              <p class="date">2017</p>
+            </div>
+          </section>
+        </div>
+
+        <div class="right-column">
+          <section id="certifications-section" class="section">
+            <h2>Certifications</h2>
+            <div class="certification-item">
+              <h3>Google AI Essentials</h3>
+              <p>Google</p>
+              <p class="date">2024</p>
+            </div>
+            <div class="certification-item">
+              <h3>Digital Marketing</h3>
+              <p>Digi Skills</p>
+              <p class="date">2020</p>
+            </div>
+            <div class="certification-item">
+              <h3>Graphic Design</h3>
+              <p>Digi Skills</p>
+              <p class="date">2020</p>
+            </div>
+          </section>
+
+          <section id="experience-section" class="section">
+            <h2>Work Experience</h2>
+            <div class="timeline">
+              <div class="experience-item">
+                <div class="experience-header">
+                  <h3>Software Developer</h3>
+                  <p class="company">i-MS Consulting</p>
+                  <p class="date">Jun 2024 - Present</p>
+                </div>
+                <ul class="experience-details">
+                  <li>Full-stack development using MERN stack</li>
+                  <li>SAP Business One implementation and customization</li>
+                  <li>Development of custom solutions using Next.js</li>
+                  <li>SQL database management and optimization</li>
+                </ul>
+              </div>
+
+              <div class="experience-item">
+                <div class="experience-header">
+                  <h3>Software Developer Intern</h3>
+                  <p class="company">Abacus Consulting</p>
+                  <p class="date">Dec 2023 - May 2024</p>
+                </div>
+                <ul class="experience-details">
+                  <li>Developed full-stack CRUD applications</li>
+                  <li>Implemented RESTful APIs</li>
+                  <li>Provided SAP B1 add-on support</li>
+                </ul>
+              </div>
+
+              <div class="experience-item">
+                <div class="experience-header">
+                  <h3>Trainee Consultant</h3>
+                  <p class="company">i-MS Consulting</p>
+                  <p class="date">2022 - 2023</p>
+                </div>
+                <ul class="experience-details">
+                  <li>SAP Business One implementation</li>
+                  <li>Crystal Reports development</li>
+                  <li>SQL database management</li>
+                </ul>
+              </div>
+              <div class="experience-item">
+                <div class="experience-header">
+                  <h3>Marketing Executive</h3>
+                  <p class="company">MAT Business Solutions</p>
+                  <p class="date">2021 - 2022</p>
+                </div>
+                <ul class="experience-details">
+                  <li>Tasked to handle Sales & Marketing</li>
+                  <li>Monitoring of marketing progress</li>
+                  <li>Solar Projects Design on dedicated Solar Software</li>
+                  <li>Marketing Ads Design</li>
+                  <li>Wordpress Development</li>
+                  <li>Monitoring of projects executions</li>
+                  <li>Management of service teams</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
