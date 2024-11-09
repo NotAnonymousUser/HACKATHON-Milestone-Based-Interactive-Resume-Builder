@@ -1,0 +1,141 @@
+
+/* General Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  background: linear-gradient(135deg, #f0f8ff, #e6e9f0);
+}
+
+/* Form Container */
+form {
+  max-width: 550px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #ffffffd9;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+  color: #0044cc;
+}
+
+h4 {
+  font-size: 1.2em;
+  color: #666;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Fieldset Styling */
+fieldset {
+  border: none;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9fafc;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+legend {
+  font-weight: 600;
+  color: #0055ff;
+  padding: 0 10px;
+  background-color: #e6f0ff;
+  border-radius: 12px;
+  margin: auto;
+}
+
+/* Floating Labels for Input Fields */
+.form-group {
+  position: relative;
+  margin-top: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 14px 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  outline: none;
+  background: transparent;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #0044cc;
+}
+
+label {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  font-size: 1em;
+  color: #888;
+  background-color: white;
+  padding: 0 5px;
+  transition: 0.2s;
+  pointer-events: none;
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label,
+textarea:focus + label,
+textarea:not(:placeholder-shown) + label {
+  top: -8px;
+  left: 10px;
+  font-size: 0.85em;
+  color: #0044cc;
+}
+
+/* Buttons */
+button,
+#download-pdf {
+  width: 100%;
+  background-color: #0044cc;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+button:hover,
+#download-pdf:hover {
+  background-color: #002a80;
+}
+
+/* Resume Display */
+#resume-display {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f0f8ff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#resume-display h2 {
+  color: #0044cc;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+/* Shareable Link */
+#shareable-link-container {
+  text-align: center;
+  margin-top: 20px;
+}
