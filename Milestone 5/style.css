@@ -1,4 +1,3 @@
-
 /* General Styling */
 body {
   font-family: "Poppins", sans-serif;
@@ -17,11 +16,15 @@ form {
 }
 
 /* Headings */
+h1, h4, legend {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #0044cc;
+}
+
 h1 {
   font-size: 2em;
-  font-weight: 600;
   text-align: center;
-  color: #0044cc;
 }
 
 h4 {
@@ -42,22 +45,15 @@ fieldset {
 }
 
 legend {
-  font-weight: 600;
-  color: #0055ff;
   padding: 0 10px;
   background-color: #e6f0ff;
   border-radius: 12px;
-  margin: auto;
+  font-size: 1.1em;
 }
 
-/* Floating Labels for Input Fields */
-.form-group {
-  position: relative;
-  margin-top: 20px;
-}
-
-input,
-textarea {
+/* Input and Textarea Styling */
+input, textarea {
+  font-family: "Poppins", sans-serif;
   width: 100%;
   padding: 14px 10px;
   font-size: 1em;
@@ -69,11 +65,11 @@ textarea {
   transition: border-color 0.3s;
 }
 
-input:focus,
-textarea:focus {
+input:focus, textarea:focus {
   border-color: #0044cc;
 }
 
+/* Labels and Floating Labels */
 label {
   position: absolute;
   top: 14px;
@@ -97,8 +93,7 @@ textarea:not(:placeholder-shown) + label {
 }
 
 /* Buttons */
-button,
-#download-pdf {
+button, #download-pdf {
   width: 100%;
   background-color: #0044cc;
   color: #fff;
@@ -112,8 +107,7 @@ button,
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-button:hover,
-#download-pdf:hover {
+button:hover, #download-pdf:hover {
   background-color: #002a80;
 }
 
